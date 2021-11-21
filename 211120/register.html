@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>회원가입</title>
@@ -8,12 +8,25 @@
     <form action="">
         <fieldset>
             <legend> 회원가입 </legend>
-            <p><label>아이디 <input type="text" size="30"></label></p>
-            <p><label>비밀번호 <input type="password"></label></p>
-            <p><label>이메일 <input type="email"></label></p>
-            <p><label>전화번호 <input type="tel"></label></p>
-            <input type="submit">
+            <p><label>아이디를 입력해주세요 <input type="text" size="30" required></label></p>
+            <p><label>비밀번호를 입력해주세요 <input type="password" required></label></p>
+            <p><label>비밀번호 확인 <input type="password" required></label></p>
+            <p>
+                <label for="email">이메일을 입력해주세요</label>
+                <input type="text" id="email" required>
+            </p>
+            <p>
+                <label for="phone">전화번호를 입력해주세요</label>
+                <input type="text" id="phone"
+                       placeholder="하이픈을 빼고 입력해주세요">
+            </p>
+            <p>생년월일을 입력해주세요</p><p><input type="date"></p>
+            <legend><input type="checkbox">광고 수신 동의(선택)</legend>
+            <legend><input type="checkbox" required>개인정보 수집 동의</legend>
+            <legend><input type="checkbox">메일로 소식 받기(선택)</legend>
         </fieldset>
+        <input type="submit">
+        <input type="reset">
     </form>
 
 </body>
