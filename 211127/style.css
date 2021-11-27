@@ -1,0 +1,31 @@
+* {
+    margin: 0
+}
+p {
+    font-style: italic;
+}
+#container {
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+h1, p {
+    text-align: center;
+}
+.accent {
+    padding: 5px;
+    border: 3px solid goldenrod;
+}
+.bg {
+    background-color: grey;
+}
+p {
+    color: black;
+}
+h1 {
+    color: hotpink !important;
+}
+p {
+    color: blue;
+}
